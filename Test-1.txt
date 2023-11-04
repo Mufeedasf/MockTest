@@ -1,0 +1,340 @@
+1)
+  java:
+>java is an JDK(java development toolkit) 
+>It is atool used for executing the byte code.
+  javac: 
+>javac is an JDK(java development toolkit) 
+>It is tool used for converting source code to byte code.
+
+2)
+JDK:
+>Java Development ToolKit(JDK) is a part of JRE and it contains different 
+>It has diffrent attributes as java,javac,jar etc...
+JRE:
+>Java RunTime Enviroment(JRE) is a combination of different libraries and JDK platforms
+>It is Provides a platform to run the java code.
+JVM:
+>Java Virtual Machine(JVM) is a software platform.
+>It is used to run the java code and provides an  outcome of the code.
+
+3).java files:                                          .class file
+                                                          >It is machine readable format
+    >It is in human readable format    
+    >It consists of diffrent keywords and classes       >It consists of 0's and 1's 
+ 
+
+4)
+Java IDE's:
+>Eclipes
+>JDk
+
+
+5)Variables:
+   
+  >variables are the name given to a memory location.
+  >variables are used to store informations.
+  >variable holds the address of particular memory locations
+Types of variable:
+1.local variable
+2.static variable
+3.Instance variable
+
+1.local variables:
+    The variable declared inside the body of the method is termed as local variables.
+  ex:void change()
+ {
+     int age;//local variable
+  }
+  
+2.static variables:
+    The variable declared using static keyword is termed as static variables.
+  ex:class change()
+ {
+   static int age;//static variable
+  }
+  
+3.instance variables:
+    The variable declared inside class and outside the body of the method is termed as instance variables.
+  ex:class change()
+ {
+     int age;//instance variable
+  }
+  
+6) Object-Oriented Programming:
+       >Object-Oriented Programming is shortly termed as OOPs concept.
+       >It is a programming concepts uses the real-world entities.
+       >It is use to build different kind of desktop,web and other applications.
+
+
+7)It does not give any output.
+
+8)Data types:
+   >Datatypes are the name used to store the different variables.
+   >It is an attribute to store any kind of memory address.
+Types of Datatypes:
+1.primitive datatypes:
+   It consists of various kind such as int,char,float,byte,short,long,boolean,double.
+ Ex:int a=45;
+    long u=987368433;
+    char='s';
+    boolean=true;
+2.Non-primitive datatypes:
+    It consists of String,Arrays,Classes Etc..
+  Ex:String name="carry";
+     Array age[]={23,34,67,90};
+
+
+
+9)Dot operator:
+   >Dot Operator is used to access the variable followed by the operator.
+   Ex:class Example 
+       {
+         int a;
+         void demo()
+          {
+           System.out.println(Example.a=12);
+         }
+      }
+
+
+10)java features:
+1.simple
+2.secure
+3.portable
+4.platform independent
+5.object-oriented
+6.Robust
+7.Architectural neutral
+8.MultiThreading
+
+11.Array:
+   >Array is a collection of homogenous datatypes.
+   >Array can be accessed using  index.
+   >Array can be used to store various kind of data of smae type.
+   >Array can be represented in [].
+Ex:
+   int[] id={101,102,103,104,105};
+
+   String location={"Bang","Cta","Dvg","UK"};
+
+12)class:
+   >class is blueprint used by developer to design a particular program.
+   >class is a keyword in java.
+   >class can be considered as Non-primitive datatypes,datatypes,T in java.
+Syntax for class :
+
+             class ClassName{
+               
+              //body of a class
+             }         
+ Ex:
+       public class Xworkz
+   {
+    public static void main(String args[])
+   {
+      System.out.println("This is a class");
+  }
+ }
+  
+Object:
+   >objects are instances of a class.
+   >object are real-world entities.
+   
+Syntax:
+  className objectname=new className();
+Ex:
+   Demo dm=new Demo();
+
+13)Keywords:
+  >keywords are the name specified for a particular data.
+  >Keywords can be termed as reserve words.
+
+keywords are:
+1.if
+2.do
+3.for
+4.class
+5.abstract
+6.instanceOf
+7.static
+8.protected
+9.final
+10.public
+ 
+Ex: static int a=89;
+    if(a>100)
+
+
+14)Constructor:
+  >constructor is a special method.
+  >constructor takes same name as classname.
+  >constructor does not have any return types.
+  >constructor is used to initialize an object.
+
+Types of constructor:
+1.Default constructor
+      >The constructor that does not have any parameter is termed as default constructor.
+Ex:
+    class Demo
+  {
+      Demo()
+    {
+
+     }
+
+  }
+
+2.Parameterized constructor
+     >The constructor having different kinds parameters is termed as parameterized constructor.
+
+Ex:
+    class Demo
+  {
+      Demo(int a,String m)
+    {
+
+     }
+
+  }
+
+15)
+>when a method is defined as static only one copy of memory is created and shared by other instance so as main is a entry point to java program 
+ main methos are specified to be static.
+
+Types of methods:
+1.static method
+  >The method having static keyword is considered as static method.
+ Ex:    class Demo
+  {
+     static void Example()
+    {
+
+     }
+
+  }
+2.Non-static Method:
+      >The method does not have static keyword is considered as static method.
+ Ex:    class Demo
+  {
+     void Example()
+    {
+
+     }
+
+}
+
+16)
+class Demo
+{
+   static int array[]={12,2,3,45,6,7,6};
+  public static void main(String args[])
+  {
+	  System.out.println("Array length is :"+array.length);
+  }
+  
+
+}
+
+17)Method:
+   >Method is block of code used perform specific task.
+   >Method are various kind static and Non-static types.
+Syntax:
+  default return-type method_name(Parameters)
+{
+//block of code
+}
+Ex:
+static void Example()
+    {
+      System.out.println("This is an example..");
+
+    }
+
+Method Overloading:
+  >Method Overloading is a concept of writing number of different methods with different parameters and datatypes
+  >method overloading  always have a return types.
+Ex:
+class Demo
+{
+static int age;
+ static void Example()
+    {
+      System.out.println("This is an example..");
+
+    }
+ 
+static int setAge()
+    {
+      System.out.println("This is an age "+age);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+          
